@@ -8,7 +8,9 @@ namespace Nullable_Delegates_Homework
     {
         //public delegate bool CheckNums(int num);
 
+        //public delegate void ChangeString(string str, int age);
 
+        //public delegate int StringLength(string str);
 
         static void Main(string[] args)
         {
@@ -51,7 +53,36 @@ namespace Nullable_Delegates_Homework
             //Console.WriteLine(result);
             #endregion
 
+            #region Delegate-Void-Action
+            //ShowString(StringToUpper, "rasul", 15);
 
+            //ChangeString func = new ChangeString(StringToUpper);
+
+            //func += StringToLower;
+            //func.Invoke("rasul", 15);
+
+            //Action<string, int> action = StringToUpper;
+            //action.Invoke("rasul", 15);
+
+            //ShowString(StringToUpper, "rasul", 15);
+
+            //ShowPowerOfNums(CalculatePower, 5, 2);
+
+            //Action<int, int> func = CalculatePower;
+            //func.Invoke(5, 2);
+            #endregion
+
+            #region Delegate-ReturnType-Func
+            //Console.WriteLine(ShowStringLength(GetStringLength,"Rasul"));
+
+            //Func<string, int> func = GetStringLength;
+            //Console.WriteLine(func.Invoke("Rasul"));
+
+            //Console.WriteLine(ShowFactorial(GetFactorial, 5));
+
+            //Func<int, int> func = GetFactorial;
+            //Console.WriteLine(func.Invoke(4));
+            #endregion
         }
 
         #region Nullable
@@ -149,7 +180,63 @@ namespace Nullable_Delegates_Homework
         //}
         #endregion
 
+        #region Delegate-Void-Action
+        //public static void StringToLower(string str, int age)
+        //{
+        //    Console.WriteLine(str.ToLower() + " " + age);
+        //}
 
+        //public static void StringToUpper(string str, int age)
+        //{
+        //    Console.WriteLine(str.ToUpper() + " " + age);
+        //}
+
+
+        //public static void ShowString(Action<string, int> func, string str, int age)
+        //{
+        //    func(str, age);
+        //}
+
+        //public static void CalculatePower(int num, int power)
+        //{
+        //    Console.WriteLine(Math.Pow(num, power));
+        //}
+
+        //public static void ShowPowerOfNums(Action<int, int> func, int num, int power)
+        //{
+        //    func(num, power);
+        //}
+        #endregion
+
+        #region Delegate-ReturnType-Func
+        //public static int GetStringLength(string str)
+        //{
+        //    return str.Length;
+        //}
+
+        //public static int ShowStringLength(Func<string, int> func, string str)
+        //{
+        //    return func(str);
+        //}
+
+        //public static int GetFactorial(int num)
+        //{
+        //    int result = 1;
+
+        //    while (num != 1)
+        //    {
+        //        result *= num;
+        //        num -= 1;
+        //    }
+
+        //    return result;
+        //}
+
+        //public static int ShowFactorial(Func<int, int> func, int num)
+        //{
+        //    return func(num);
+        //}
+        #endregion
     }
 
     #region Nullable
@@ -163,4 +250,5 @@ namespace Nullable_Delegates_Homework
     //    public int? Id { get; set; }
     //}
     #endregion
+
 }
