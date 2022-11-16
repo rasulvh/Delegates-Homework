@@ -12,3 +12,17 @@ D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates-Homework\Deleg
 D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates-Homework\Delegates-Homework\obj\Debug\netcoreapp3.1\Delegates-Homework.dll
 D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates-Homework\Delegates-Homework\obj\Debug\netcoreapp3.1\Delegates-Homework.pdb
 D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates-Homework\Delegates-Homework\obj\Debug\netcoreapp3.1\Delegates-Homework.genruntimeconfig.cache
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\obj\Debug\netcoreapp3.1\Delegates-Homework.csproj.AssemblyReference.cache
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\obj\Debug\netcoreapp3.1\Delegates-Homework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\obj\Debug\netcoreapp3.1\Delegates-Homework.AssemblyInfoInputs.cache
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\obj\Debug\netcoreapp3.1\Delegates-Homework.AssemblyInfo.cs
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\obj\Debug\netcoreapp3.1\Delegates-Homework.csproj.CoreCompileInputs.cache
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\obj\Debug\netcoreapp3.1\Delegates-Homework.dll
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\obj\Debug\netcoreapp3.1\Delegates-Homework.pdb
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\bin\Debug\netcoreapp3.1\Delegates-Homework.exe
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\bin\Debug\netcoreapp3.1\Delegates-Homework.deps.json
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\bin\Debug\netcoreapp3.1\Delegates-Homework.runtimeconfig.json
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\bin\Debug\netcoreapp3.1\Delegates-Homework.runtimeconfig.dev.json
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\bin\Debug\netcoreapp3.1\Delegates-Homework.dll
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\bin\Debug\netcoreapp3.1\Delegates-Homework.pdb
+D:\Masadakılar Rasul\Code Academy\Ev tapşırığı\C#\Delegates\Delegates-Homework\Delegates-Homework\obj\Debug\netcoreapp3.1\Delegates-Homework.genruntimeconfig.cache

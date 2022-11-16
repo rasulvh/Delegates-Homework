@@ -8,6 +8,7 @@ namespace Delegates_Homework
     {
         static void Main(string[] args)
         {
+
             #region ShowPersonsThatGetsSalaryGreaterThan1000
             //Person person1 = new Person();
             //person1.Name = "Rasul";
@@ -40,39 +41,36 @@ namespace Delegates_Homework
             #endregion
 
             #region GetNizami'sBooksCount
-            Book book1 = new Book();
-            book1.Author = "Nizami";
+            //Book book1 = new Book();
+            //book1.Author = "Nizami";
 
-            Book book2 = new Book();
-            book2.Author = "Rasul";
+            //Book book2 = new Book();
+            //book2.Author = "Rasul";
 
-            Book book3 = new Book();
-            book3.Author = "Nizami";
+            //Book book3 = new Book();
+            //book3.Author = "Nizami";
 
-            List<Book> books = new List<Book>();
+            //List<Book> books = new List<Book>();
 
-            books.Add(book1);
-            books.Add(book2);
-            books.Add(book3);
+            //books.Add(book1);
+            //books.Add(book2);
+            //books.Add(book3);
 
-            foreach (Book book in books)
-            {
-                Console.WriteLine(ShowBookCount(CheckBookAuthor, book));
-            }
+            //Console.WriteLine(ShowBookCount(CheckBookAuthor, books));
             #endregion
 
             #region GetFilteredEmployeeMiddleSalary
             Employee emp1 = new Employee();
-            emp1.Age = 25;
+            emp1.Age = 37;
             emp1.Salary = 2600;
 
             Employee emp2 = new Employee();
             emp2.Age = 25;
-            emp2.Salary = 2600;
+            emp2.Salary = 3000;
 
             Employee emp3 = new Employee();
-            emp3.Age = 25;
-            emp3.Salary = 2600;
+            emp3.Age = 15;
+            emp3.Salary = 3600;
 
 
             List<Employee> employees = new List<Employee>();
@@ -81,7 +79,7 @@ namespace Delegates_Homework
             employees.Add(emp2);
             employees.Add(emp3);
 
-            int count = employees.Count;
+            Console.WriteLine(ShowEmployeeMiddleSalary(GetEmployeeMiddleSalary, employees));
             #endregion
 
         }
@@ -104,26 +102,52 @@ namespace Delegates_Homework
         #endregion
 
         #region GetNizamis'sBooksCount
-        //Correct this task
-
         public static bool CheckBookAuthor(Book book)
         {
             return book.Author == "Nizami";
         }
 
-        public static int ShowBookCount(Predicate<Book> func, Book book)
+        public static int ShowBookCount(Predicate<Book> func, List<Book> book)
         {
             int count = 0;
 
-            if (func(book))
+            foreach (var item in book)
             {
-                count++;
+                if (item.Author == "Nizami")
+                {
+                    count++;
+                }
             }
 
             return count;
         }
         #endregion
 
+        #region GetFilteredEmployeeMiddleSalary
+        public static double GetEmployeeMiddleSalary(List<Employee> employees)
+        {
+            double salary = 0;
+            double middleSalary = 0;
+            int count = 0;
+
+            foreach (var item in employees)
+            {
+                if (item.Age > 20 && item.Age < 40)
+                {
+                    count++;
+                    salary += item.Salary;
+                    middleSalary = salary / count;
+                }
+            }
+
+            return middleSalary;
+        }
+
+        public static double ShowEmployeeMiddleSalary(Func<List<Employee>, double> func, List<Employee> employees)
+        {
+            return func(employees);
+        }
+        #endregion
 
     }
 }

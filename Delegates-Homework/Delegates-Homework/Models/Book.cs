@@ -7,5 +7,6 @@ namespace Delegates_Homework.Models
     public class Book
     {
         public string Author { get; set; }
+        public string BookName { get; set; }
     }
 }
